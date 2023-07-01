@@ -6,6 +6,13 @@
     }
 }
 
+@media (max-width: 767px) {
+    .card {
+      width: 100%; /* Set the width to 100% for small screens */
+    }
+  }
+  
+
 @media (max-width:767px) {
     .home-section .home-text,
     .home-section .home-img,

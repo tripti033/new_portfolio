@@ -1801,14 +1801,14 @@ textarea.input-controller {
     color: black;
   }
   
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
+  @media (max-width: 767px) {
+    .card {
+      width: 100%; /* Set the width to 100% for small screens */
     }
   }
   
   
+
 
   .card {
     margin: 30px auto;
